@@ -1,0 +1,14 @@
+
+#Number of upper and lower case letters
+
+uc = lc = 0
+def countCase(s):
+    global uc, lc
+    for i in s:
+        if i.isupper():
+            uc+=1
+        else:
+            lc+=1
+    return lc, uc
+
+print("Number of lower and upper case letters in ",x := input("Enter a word: "), "is: ", countCase(x))
