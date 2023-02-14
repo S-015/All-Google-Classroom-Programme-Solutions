@@ -1,0 +1,4 @@
+#Write a program that asks the user to enter a string, then prints out each letter of the string doubled and on a separate line.
+
+for i in input("Enter a word: "):
+    print(i*2)
