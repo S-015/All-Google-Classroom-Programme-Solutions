@@ -1,0 +1,3 @@
+#Unique Elements
+l2 = list(set(eval(input("Enter list of numbers: "))))
+print(l2)
