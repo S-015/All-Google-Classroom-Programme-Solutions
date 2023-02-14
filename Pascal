@@ -1,0 +1,21 @@
+n = int(input("How many rows?"))
+def pascal():
+   for i in range(0, n+1):
+       print(" " * (n-i),end="")
+       a = str(11**i)
+       b = list(a)
+       t = " ".join(b)
+       print(t)
+
+pascal()
+
+n = int(input("How many rows?"))
+def pascal():
+   for i in range(0, n+1):
+       print(" " * (n-i),end="")
+       a = str(11**i)
+       b = list(a)
+       t = " ".join(b)
+       print(t)
+
+pascal()
