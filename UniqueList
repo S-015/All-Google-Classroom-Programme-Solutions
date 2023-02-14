@@ -1,0 +1,5 @@
+
+def uniqueList(l):
+    return list(set(l))
+
+print(uniqueList(eval(input("Enter a list: "))))
