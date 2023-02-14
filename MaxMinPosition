@@ -1,0 +1,3 @@
+
+l = eval(input("Enter a list of numbers: "))
+print(l.index((max(l))), l.index(min(l)))
