@@ -1,0 +1,5 @@
+
+string = input("Enter a string: ")
+d = eval(input("Enter a dictionary: "))
+for i in string.split(' '):
+    print(i if i not in d.keys() else print(""))
