@@ -1,0 +1,4 @@
+
+#Check palindrome
+
+print("Palindrome = ",(x:=input("Enter a string: ")) == x[::-1])
