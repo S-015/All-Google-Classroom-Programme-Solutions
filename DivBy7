@@ -1,0 +1,10 @@
+
+#returns a list of all such numbers which are divisible by 7 but are not a multiple of 5
+
+def div7(a, b):
+    for i in range(a, b+1):
+        if i%7==0 and i%5!=0:
+            print(i)
+
+ul, ll = int(input("Enter upper and lower limit: ")), int(input())
+div7(ll, ul)
