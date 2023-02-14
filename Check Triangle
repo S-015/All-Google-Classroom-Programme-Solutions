@@ -1,0 +1,9 @@
+
+
+#check triangle
+
+a, b, c = int(input("Enter 3 side lengths: ")), int(input()), int(input())
+if a+b>c and b+c>a and a+c>b:
+    print("Valid triangle")
+else:
+    print("Invalid triangle")
