@@ -1,0 +1,6 @@
+#Opposite mapping
+p = {}
+x = eval(input("enter a dictionary: "))
+for i in x.keys():
+    p[x[i]] = i
+print(p)
